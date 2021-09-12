@@ -1,0 +1,132 @@
+body {
+  background-color: #E785EE;
+}
+/*site header*/
+.sitename {
+  margin: 20px 30% 0px 60px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: Monaco, "Lucida Console", monospace;
+  color:#FFFFFF;
+  background-image: url("https://lh3.googleusercontent.com/YGJ77qN9KiwctZgfqV8Bf3hNo0rZvcFaPKDTkvtS6kVbtwyCS80Pm6dpXzJCCLZE1Q");
+}
+/*all text css*/
+.text {
+  margin-left: 200px;
+  margin-right: 30%;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  background-color: #191719;
+  color: #EE19CE;
+  font-family: Monaco, "Lucida Console", monospace;
+
+}
+/*images from the minecraft page*/
+.minecraft .left img {
+  border-style: double;
+  border-width: 5px;
+  border-color: white;
+  margin-bottom:0px;
+}
+.minecraft .right img {
+  border-style: double;
+  border-width: 5px;
+  border-color: white;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+.minecraft .right{
+  text-align: right;
+}
+
+a {
+  color: white;
+}
+/*title for each page*/
+.title {
+  padding: 3px 0px 3px 20px;
+  margin-left: 200px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 30%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: Monaco, "Lucida Console", monospace;
+}
+/*Nav Bar*/
+.sidebar {
+  margin-left: 60px;
+  padding-right: 20px;
+  width: 140px;
+  float: left;
+}
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 0;
+  overflow: hidden;
+}
+.sidebar a {
+  padding:15px;
+  font-size: 15px;
+  font-family: Monaco, "Lucida Console", monospace;
+  color: #E1AFF1;
+  display: block;
+  background-color: #262526;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  background-color: #8C888C;
+  color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+.drop_button {
+  width: 140px;
+}
+/*"Foil Ball" Dropdown menu*/
+.dropdown_stuff_1 {
+  display: none;
+  position: absolute;
+  right: 75.1%;
+  z-index: 1;
+  top: 39%;
+}
+.dropdown_stuff_1 a {
+  background-color: #5A575A;
+}
+.dropdown_stuff_1 a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown_stuff_1 {
+  display:block;
+}
+/*"Other" Dropdown menu */
+.dropdown_stuff_2 a {
+  background-color: #5A575A;
+}
+.dropdown_stuff_2 a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown_stuff_2 {
+  display:block;
+}
+.dropdown_stuff_2 {
+  display: none;
+  position: absolute;
+  right: 75.1%;
+  z-index: 1;
+  top: 44.5%;
+}
